@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+
+# Uploaded/generated runtime files
+uploads/
+backend/uploads/
+
+# Cryptographic key material
+*.pem
+*.key
+backend/keys/
+
+# Logs
+*.log
+*.err
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
